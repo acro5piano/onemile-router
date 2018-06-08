@@ -2402,9 +2402,9 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-onemile-router@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/onemile-router/-/onemile-router-0.0.1.tgz#d4fc284cf86dd3a9600d23e5766ffdd5257ac732"
+onemile-router@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/onemile-router/-/onemile-router-0.0.2.tgz#dee2c8bd7ea0cb5e45cab030d2775903cc59907d"
   dependencies:
     history "^4.7.2"
     recompose "^0.27.1"
