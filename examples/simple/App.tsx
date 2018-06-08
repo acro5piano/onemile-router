@@ -1,6 +1,5 @@
 import * as React from 'react'
-import { Router } from '../../src/Router'
-import { Route } from '../../src/Route'
+import { Router, Route } from 'onemile-router'
 
 const Dashboard = () => <div>Dashboard</div>
 const Message = () => <div>Message</div>
