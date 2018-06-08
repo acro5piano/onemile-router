@@ -1,10 +1,11 @@
 import * as React from 'react'
 import { Router } from '../../src/Router'
 import { Route } from '../../src/Route'
-import Dashboard from './Dashboard'
-import Message from './Message'
 
-export default class App extends React.Component<{}, {}> {
+const Dashboard = () => <div>Dashboard</div>
+const Message = () => <div>Message</div>
+
+export default class App extends React.Component {
   router: Router
 
   onRouteChange = ({ from, to }) => {
