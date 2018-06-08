@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/onemile-router.svg)](https://badge.fury.io/js/onemile-router)
+
 # Onemile router
 
 A React Router alternative.
@@ -63,5 +65,6 @@ export default class App extends React.Component {
 # TODO
 
 - [x] Publish to NPM
+- [ ] Write test
 - [ ] Route parameter
 - [ ] Provide `withRouter()` HOC
