@@ -1,6 +1,21 @@
+# Onemile router
+
+A React Router alternative.
+
+Onemile router provides dead simple and easy-to-manage routing.
+
+# Install
+
+(later)
+
+# Example
+
+Note: Onemile router have not published to NPM yet.
+
+```ts
 import * as React from 'react'
-import { Router } from '../../src/Router'
-import { Route } from '../../src/Route'
+import { Router, Route } from 'onemile-router'
+
 import Dashboard from './Dashboard'
 import Message from './Message'
 
@@ -35,3 +50,10 @@ export default class App extends React.Component<{}, {}> {
     )
   }
 }
+
+
+# TODO
+
+- Publish to NPM
+- Route parameter
+- Provide `withRouter()` HOC
