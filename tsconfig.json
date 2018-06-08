@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "jsx": "react",
+    "outDir": "dist",
+    "noUnusedLocals": true,
+    "types": [
+      "node",
+      "webpack-env"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "dom",
+      "es2015",
+      "esnext.asynciterable"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "sarte/*": ["./src/*"]
+    }
+  },
+  "parcelTsPluginOptions": {
+    "transpileOnly": true
+  },
+  "exclude": [
+    "node_modules",
+    "static"
+  ]
+}

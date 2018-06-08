@@ -4,5 +4,25 @@
   "main": "index.js",
   "repository": "git@github.com:acro5piano/onemile-router",
   "author": "gosho-kazuya <ketsume0211@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "recompose": "^0.27.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "@types/node": "^10.3.2",
+    "jest": "^23.1.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "ts-jest": "^22.4.6",
+    "tslint": "^5.10.0",
+    "tslint-config-standard": "^7.0.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.9.1"
+  }
 }
