@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "system",
     "moduleResolution": "node",
     "declaration": false,
     "noImplicitAny": false,
@@ -9,11 +9,10 @@
     "experimentalDecorators": true,
     "noLib": false,
     "jsx": "react",
-    "outDir": "dist",
+    "outFile": "dist/index.js",
     "noUnusedLocals": true,
     "types": [
-      "node",
-      "webpack-env"
+      "node"
     ],
     "typeRoots": [
       "node_modules/@types"
