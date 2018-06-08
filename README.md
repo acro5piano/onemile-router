@@ -6,6 +6,8 @@ A React Router alternative.
 
 Onemile router provides dead simple and easy-to-manage routing.
 
+![demo](https://github.com/acro5piano/onemile-router/blob/master/demo.gif)
+
 # Install
 
 ```
