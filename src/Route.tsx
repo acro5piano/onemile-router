@@ -1,34 +1,23 @@
-import React from 'react'
+import * as React from 'react'
 
-interface RoutesProps {
+interface RouteTransition {
+  from: string
+  to: string
+}
+
+interface RouterProps {
   path: string
   component: any
+  onRouteChange?: (routeTransition: RouteTransition) => void
 }
 
 interface RoutesState {
   key: string
 }
 
-export class Route extends React.Component<RoutesProps, RoutesState> {
-  state = {
-    key: '',
-  }
-
-  componentDidMount() {
-    this.props.navigationStore.history.listen(({ key }) => {
-      this.setState({ key })
-    })
-  }
-
+export class Route extends React.Component<RouterProps, RoutesState> {
   render() {
-    const location = this.props.navigationStore.getLocation()
-
-    const target = RouteMap.find(r => r.path === location.pathname)
-
-    if (!target || !target.component) {
-      return <div>404</div>
-    }
-
-    return <target.component />
+    const Component = this.props.component
+    return <Component {...this.props} />
   }
 }
