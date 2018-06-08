@@ -6,7 +6,15 @@ Onemile router provides dead simple and easy-to-manage routing.
 
 # Install
 
-(later)
+```
+npm install onemile-router
+```
+
+or if you use yarn:
+
+```
+yarn add onemile-router
+```
 
 # Example
 
@@ -14,8 +22,7 @@ Note: Onemile router have not published to NPM yet.
 
 ```ts
 import * as React from 'react'
-import { Router } from '../../src/Router'
-import { Route } from '../../src/Route'
+import { Router, Route } from 'onemile-router'
 
 const Dashboard = () => <div>Dashboard</div>
 const Message = () => <div>Message</div>
@@ -55,6 +62,6 @@ export default class App extends React.Component {
 
 # TODO
 
-- Publish to NPM
-- Route parameter
-- Provide `withRouter()` HOC
+- [x] Publish to NPM
+- [ ] Route parameter
+- [ ] Provide `withRouter()` HOC
