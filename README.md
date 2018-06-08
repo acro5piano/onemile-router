@@ -14,12 +14,13 @@ Note: Onemile router have not published to NPM yet.
 
 ```ts
 import * as React from 'react'
-import { Router, Route } from 'onemile-router'
+import { Router } from '../../src/Router'
+import { Route } from '../../src/Route'
 
-import Dashboard from './Dashboard'
-import Message from './Message'
+const Dashboard = () => <div>Dashboard</div>
+const Message = () => <div>Message</div>
 
-export default class App extends React.Component<{}, {}> {
+export default class App extends React.Component {
   router: Router
 
   onRouteChange = ({ from, to }) => {
@@ -50,7 +51,7 @@ export default class App extends React.Component<{}, {}> {
     )
   }
 }
-
+```
 
 # TODO
 
