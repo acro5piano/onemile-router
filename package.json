@@ -10,7 +10,8 @@
     "react": ">=16"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "build"
   },
   "dependencies": {
     "history": "^4.7.2",
