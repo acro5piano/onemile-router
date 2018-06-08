@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublish": "build"
+    "prepublish": "tsc"
   },
   "dependencies": {
     "history": "^4.7.2",
